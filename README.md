@@ -4,13 +4,13 @@ FileTranscriber
 A small utility that simulates user typing to aid plaintext file transcription
 in limited environments
 
-Usage:
+  Usage:
 
-    transcribe <file> [--interval=<time>]
+    transcribe <file> [--interval=<time>] [--pause=<time>]
 
     transcribe (--help | --version)
 
-Options:
+  Options:
 
     -i --interval=<time>  Interval between keystrokes (in seconds). Typing too
 
@@ -47,7 +47,7 @@ already have it.
 
 FileTranscriber relies on [PyUserInput](https://github.com/SavinaRoja/PyUserInput),
 which is a python module for cross-platform simulation and tracking of user input.
-This should also install automatically with pip; if you do not already have it.
+This should also install automatically with pip if you do not already have it.
 
 The dependencies for PyUserInput depend on your platform and will probably require
 manual installation, search for the versions appropriate for your computer and
