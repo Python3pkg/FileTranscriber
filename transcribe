@@ -60,7 +60,7 @@ def main():
             keyboard.type_string(line, opts['--interval'])
 
 if __name__ == '__main__':
-    opts = docopt(__doc__, version='0.1c')
+    opts = docopt(__doc__, version='0.1d')
     try:
         opts['--interval'] = float(opts['--interval'])
     except ValueError:

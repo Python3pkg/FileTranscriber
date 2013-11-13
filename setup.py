@@ -1,14 +1,16 @@
 # -*- coding: utf-8 -*-
 from distutils.core import setup
 import sys
+import os
 
 def long_description():
-    with open('README.md', 'r') as readme:
+    rfname = os.path.join(os.path.dirname(__file__), 'README.md')
+    with open(rfname, 'r') as readme:
         readme_text = readme.read()
     return(readme_text)
 
 setup(name='FileTranscriber',
-      version='0.1c',
+      version='0.1d',
       description='''A small utility that simulates user typing to aid \
 file transcription in limited environments''',
       long_description=long_description(),
