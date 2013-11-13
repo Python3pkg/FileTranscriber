@@ -8,7 +8,7 @@ def long_description():
     return(readme_text)
 
 setup(name='FileTranscriber',
-      version='0.1b',
+      version='0.1c',
       description='''A small utility that simulates user typing to aid \
 file transcription in limited environments''',
       long_description=long_description(),
